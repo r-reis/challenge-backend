@@ -68,7 +68,7 @@ class Order:
 
     def add_product(self, product):
         self.items.append(product)
-        return product
+        return self
 
     @property
     def total_amount(self):

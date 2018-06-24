@@ -15,4 +15,4 @@ payment_book.pay()
 print(payment_book.is_paid())  # < true
 print(payment_book.order.items[0].product.type)
 
-# now, how to deal with shipping rules then?
+
